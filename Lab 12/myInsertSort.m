@@ -1,5 +1,5 @@
-function[out_1,swap,comparisions] = insertionsort(a)
-tic
+function[out_1,swap,comparisions,time] = myInsertSort(a)
+tic()
 [m n] = size(a);
 if m == 1
     swap_1 = 0;
@@ -20,5 +20,5 @@ if m == 1
     end
     out_1 = a;
 end
-toc
+time = toc();
 end
