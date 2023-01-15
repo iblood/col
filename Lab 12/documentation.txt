@@ -1,0 +1,15 @@
+--> Documentation for the animation of merge myMergeSort
+
+--> Declaration of global variable 'array'
+--> Assigning the value 'x' using the start and end parametrs to the global 'array'
+--> yl -- start = start,end = start+cut-1
+--> yr -- start = start+cut,end = end;
+--> updation in while conditon using 'array(start+k-1)' = yl(i)
+--> making a bar graph using 'array' global
+--> pause(1)
+--> add title as comparisions of the particular terms
+-->c_p is color pallate
+
+        bar(array,"facecolor",c_p(randi(6,1,1)))
+        set(gca,'xticklabel',array);
+         pause(1)
