@@ -13,3 +13,7 @@
         bar(array,"facecolor",c_p(randi(6,1,1)))
         set(gca,'xticklabel',array);
          pause(1)
+--> To Do remove what is getting sorted from if --> 1-10 are geting sorted remove them i.e append (0) 
+                                                --> go with arranging in order and plot in the graph 
+                                                --> should work on the global 'array' in the respect of the above ammendments
+                                                

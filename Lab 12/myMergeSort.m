@@ -28,32 +28,26 @@ c_p = "rgbymc";
                 j = j + 1;
                 k = k + 1;
             end
-            bar(array,"facecolor",c_p(randi(6,1,1)))
-            set(gca,'xticklabel',array);
-            if len_l == 15
-                "hello"
-                pause(1)
-            end
+           array
         end
         while i <= len_l 
             y(k) = yl(i);
             array(start+k-1) = yl(i);
             i = i +1;
             k = k + 1;
-            bar(array,"facecolor",c_p(randi(6,1,1)))
-            set(gca,'xticklabel',array);
+            array
         end
         while j <= len_r
             array(start+k-1) = yr(j);
             y(k) = yr(j);
             j = j + 1;
             k = k + 1;
-            bar(array,"facecolor",c_p(randi(6,1,1)))
-            set(gca,'xticklabel',array);
+            array
         end
         %set(gcf,'color','k')
         %axis equal off
-        
+        bar(array,"facecolor",c_p(randi(6,1,1)))
+        set(gca,'xticklabel',array);
         ttl_1 = "Sorting From";
         ttl_2 = "To";
         ttl = [ttl_1 " " num2str(start) " " ttl_2 num2str(end_t)];
