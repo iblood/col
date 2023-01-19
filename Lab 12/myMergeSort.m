@@ -25,7 +25,7 @@ ttl_2 = "To";
         ttl = [ttl_1 " " num2str(start) " " ttl_2 num2str(end_t)];
         legend(leg)
         title(ttl)
-        pause(1)
+        pause(0.2)
         while i <= len_l && j <= len_r
             if yl(i) <= yr(j)
                 y(k) = yl(i);
@@ -55,7 +55,7 @@ ttl_2 = "To";
             ttl = [ttl_1 " " num2str(start) " " ttl_2 num2str(end_t)];
             legend(leg)
             title(ttl)
-            pause(1)
+            pause(0.2)
         end
         while i <= len_l 
             y(k) = yl(i);
@@ -72,7 +72,7 @@ ttl_2 = "To";
             ttl = [ttl_1 " " num2str(start) " " ttl_2 num2str(end_t)];
             title(ttl)
             leg = num2str(legs);
-            pause(1)
+            pause(0.2)
         end
         while j <= len_r
             array(start+k-1) = yr(j);
@@ -89,7 +89,7 @@ ttl_2 = "To";
             ttl = [ttl_1 " " num2str(start) " " ttl_2 num2str(end_t)];
             leg = num2str(legs);
             title(ttl)
-            pause(1)
+            pause(0.2)
         end
         %set(gcf,'color','k')
         %axis equal off
