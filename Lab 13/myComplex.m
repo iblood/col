@@ -1,4 +1,4 @@
-classdef myComplex < handle
+classdef myComplex
 
 properties
     x
