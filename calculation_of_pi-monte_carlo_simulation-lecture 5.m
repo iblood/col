@@ -2,7 +2,7 @@ clear;
 
 succHits = hits = 0;
 maxhits = input("Enter no of hits");
-radius = input('Enter radius");
+radius = input('Enter radius');
 % check for validation of number entered;
 
 while( hits <= maxHits)

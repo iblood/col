@@ -1,0 +1,1 @@
+make a run function so that we can keep loading the variable names as per the declared size
