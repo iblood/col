@@ -13,10 +13,9 @@ function[] = drawflakes(n)
             tri_2_x = (2*x(2)+x(1))/3;
             tri_1_y = (2*y(1)+y(2))/3;
             tri_2_y = (2*y(2)+y(1))/3;
-            x = [x(1) tri_1_x tri_2_x x(2)];
-            y = [y(1) tri_1_y tri_2_y y(2)];
+            
             if n>2
-                
+
             end
             plot(x,y);
         end
